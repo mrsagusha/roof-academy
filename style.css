@@ -2,3 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
+.body {
+    background-image:url(/roof-academy/assets/backgound.png);
+}
+
+.container {
+    margin: 0 auto;
+    width: 81vw;
+}
+
+.header {
+    padding-top: 3.98vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    font-family:"Montserrat", sans-serif;
+    color: #1C1C1C;
+    size: 14px;
+    letter-spacing: 5%;
+    line-height: 19.6px;
+}
