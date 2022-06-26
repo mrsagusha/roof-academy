@@ -134,6 +134,10 @@
     padding-bottom: 1.3vh;
 }
 
+.main__question__text br {
+    display: none;
+}
+
 .call-me-section {
     margin: 0 auto;
     border-bottom: dotted #12C868 2px;
@@ -174,6 +178,7 @@
 .main__services {
     width: 37.91vw;
     padding-left: 4vw;
+    position: relative;
 }
 
 .main {
@@ -181,13 +186,16 @@
     display: flex;
 }
 
-
 .main__title__text {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 2.864vw;
     line-height: 8.771vh;
     color: #1C1C1C;
+}
+
+.mobile {
+    display: none;
 }
 
 .continuation {
@@ -198,6 +206,7 @@
 
 .end {
     display: flex;
+    position: absolute;
     align-items: center;
     padding-top: 1.96vh;
 }
@@ -333,7 +342,7 @@
     width: 11.71vw;
     height: 64.65vh;
     clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
-    background-color: #ffffff56;
+    background-color: #ffffff;
     border-radius: 20px;
     position: relative;
 }
@@ -369,4 +378,226 @@
 .fourth {
     max-width: 8.9vw;
     font-size: 0.7vw;
+}
+
+@media screen and (max-width: 993px) {
+
+    .body {
+        height: auto;
+        background-size: contain;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .menu__text {
+        display: none;
+    }
+
+    .menu__pdf {
+        display: none;
+    }
+
+    .menu__messengers {
+        display: none;
+    }
+
+    .menu__logo {
+        position: relative;
+    }
+
+    .body {
+        background-image: url(/roof-academy/assets/background-mobile.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    .logo {
+        position: absolute;
+        height: 21.35px;
+        width: 51.46px;
+        padding-top: 40px;
+        left: 3px;
+        top: 0px;
+    }
+
+    .form {
+        position: absolute;
+        width: 100px;
+        height: 87px;
+        padding-top: 36px;
+        left: -20px;
+    }
+
+    
+
+    .menu__contacts {
+        width: 137px;
+        padding: 0;
+        padding-top: 40px;
+    }
+
+    .work-time {
+        font-size: 7px;
+        line-height: 8.53px;
+        letter-spacing: 2%;
+        position: relative;
+    }
+
+    .work-time::after {
+        content: "";
+        width: 4px;
+        height: 4px;
+        border: #12C868;
+        background-color: #12C868;
+        border-radius: 100px;
+        position: absolute;
+        left: 0px;
+        top: 1px;
+    }
+
+    .phone-number {
+        font-size: 14px;
+        line-height: 17.07px;
+        letter-spacing: 5%;
+        padding: 4px 0px 4px 0px;
+    }
+
+    .call-me-section {
+        width: 88.5px;
+    }
+
+    .call-me {
+        font-size: 10px;
+        line-height: 12.19px;
+        letter-spacing: 4%;
+        padding-bottom: 6px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        padding-top: 34px;
+    }
+
+    .main__description {
+        order: 2;
+        width: 225px;
+        height: 367px;
+    }
+
+    .main__services {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: auto;
+        padding: 0;
+    }
+
+    .main__title__text {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .main__title__text br {
+        display: none;
+    }
+
+    .continuation {
+        font-size: 13px;
+        line-height: 15.85px;
+        font-weight: 300;
+    }
+
+    .end {
+        padding: 0;
+    }
+
+    .main__title__img {
+        padding: 0;
+        width: 37px;
+        height: 5.88px;
+    }
+
+    .main__question {
+        flex-direction: column;
+        margin: 0 auto;
+        order: 1;
+        min-width: 240px;
+    }
+
+    .main__buttons {
+        order: 2;
+    }
+
+    .main__question__text {
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: 2%;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .main__question_icon {
+        margin: 0 auto;
+        width: 12.81px;
+        height: 10px;
+    }
+
+    .main__question__text br {
+        display: block;
+    }
+
+    .main__buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .calculate-button {
+        margin: 0 auto;
+        width: 276px;
+        height: 60px;
+    }
+
+    .signup-button {
+        margin: 0 auto;
+        width: 276px;
+        height: 60px;
+    }
+
+    .calculate {
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 2%;
+        min-width: 152px;
+        padding: 0;
+        padding-left: 45px;
+        padding-top: 14px;
+    }
+
+    .calculate::after {
+        display: none;
+    }
+
+    .signup {
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 2%;
+        min-width: 152px;
+        padding: 0;
+        padding-left: 57px;
+        padding-top: 14px;
+    }
+
+    .main_description__text  {
+        font-size: 10px;
+        line-height: 17px;
+        font-weight: 400;
+    }
+
+    .mobile {
+        display: block;
+    }
 }
