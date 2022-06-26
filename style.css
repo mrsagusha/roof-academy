@@ -4,7 +4,9 @@
 }
 
 .body {
-    background-image:url(/roof-academy/assets/backgound.png);
+    width: 100vw;
+    height: 111.45vh;
+    background-image: url(/roof-academy/assets/backgound.png);
 }
 
 .container {
@@ -13,7 +15,7 @@
 }
 
 .header {
-    padding-top: 4.43vh;
+    padding-top: 4.6vh;
     padding-bottom: 3.81vh;
 }
 
@@ -32,6 +34,10 @@
     line-height: 19.6px;
 }
 
+.link-contacts {
+    padding-right: 0.99vw;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -42,7 +48,8 @@
 .menu__text {
     width: 10.67vw;
     text-align: center;
-    padding-top: 2.88vh;
+    padding-top: 3.4vh;
+    padding-right: 0.6vw;
 }
 
 .menu__pdf {
@@ -63,13 +70,20 @@
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     line-height: 18px;
+    margin-top: -0.6vh;
+}
+
+.menu__pdf-text {
+    line-height: 14.63px;
+    letter-spacing: 4%;
 }
 
 .menu__messengers {
     width: 8.32vw;
     text-align: center;
     position: relative;
-    padding-top: 3.81vh;
+    padding-top: 4.1vh;
+    padding-right: 4vh;
 }
 
 .menu__messengers__text {
@@ -89,13 +103,15 @@
 }
 
 .menu__messengers__icons {
+    margin-top: -0.3vh;
     display: flex;
     justify-content: space-between;
 }
 
 .menu__contacts {
-    padding-top: 3.71vh;
+    padding-top: 4.12vh;
     width: 12.65vw;
+    padding-left: 0.8vw;
 }
 
 .work-time {
@@ -106,12 +122,14 @@
 }
 
 .phone-number {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 22px;
     line-height: 26.82px;
     letter-spacing: 5%;
     font-weight: 600;
-    padding-top: 0.55vh;
+    padding-top: 1.55vh;
+    padding-bottom: 1.3vh;
 }
 
 .call-me-section {
@@ -134,10 +152,12 @@
 }
 
 .form {
+    margin-top: -5vh;
     position: relative;
     z-index: 1;
-    width: 14.27vw;
-    height: 15.27vh;
+    width: 19.27vw;
+    height: 25vh;
+    left: -20px;
 }
 
 .logo {
@@ -145,6 +165,202 @@
     z-index: 2;
     width: 9.79vw;
     height: 8.05vh;
-    left: 43px;
+    left: 8.78vh;
 }
 
+.main__services {
+    width: 37.91vw;
+    padding-left: 4vw;
+}
+
+.main {
+    padding-top: 16vh;
+    display: flex;
+}
+
+
+.main__title__text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 85px;
+    color: #1C1C1C;
+}
+
+.continuation {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39.01px;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    padding-top: 1.96vh;
+}
+
+.main__title__img {
+    height: 9.21px;
+    padding-right: 0.83vw;
+    padding-top: 0.7vh;
+    margin-left: -0.24vw;
+}
+
+.main__buttons {
+    display: flex;
+    padding-top: 4.64vh;
+    margin-left: -0.25vw;
+}
+
+.calculate-button {
+    width: 19.53vw;
+    height: 10.32vh;
+    background-color: #12C868;
+    border-radius: 500px;
+    margin-right: 0.93vw;
+}
+
+.signup-button {
+    width: 17.44vw;
+    height: 10.32vh;
+    background-color: #F38120;
+    border-radius: 500px;
+}
+
+.button-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 2.78vh;
+}
+
+.calculate {
+    width: 11.09vw;
+    padding-left: 2.76vw;
+    position: relative;
+}
+
+.calculate::after {
+    content: "";
+    position: absolute;
+    border: #FFFFFF solid;
+    border-width:  0px 2px 2px 0px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-90deg);
+    right: -3vw;
+    top: 4.2vh;
+}
+
+.calculate::before {
+    content: "";
+    position: absolute;
+    border: #FFFFFF solid;
+    border-width:  0px 2px 0px 0px;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    right: -2.8vw;
+    top: 3.3vh;
+}
+
+.signup {
+    width: 9.32vw;
+    padding-left: 2.78vw;
+    position: relative;
+}
+
+.signup::after {
+    content: "";
+    position: absolute;
+    border: #FFFFFF solid;
+    border-width:  0px 2px 2px 0px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-90deg);
+    right: -3vw;
+    top: 4.2vh;
+}
+
+.signup::before {
+    content: "";
+    position: absolute;
+    border: #FFFFFF solid;
+    border-width:  0px 2px 0px 0px;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    right: -2.8vw;
+    top: 3.3vh;
+}
+
+.main__question {
+    display: flex;
+    width: 14.375vw;
+    padding-top: 3.92vh;
+    margin-left: -0.3vw;
+}
+
+.main__question__text {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2%;
+    color: #1C1C1C;
+    font-weight: 400;
+}
+
+.main__question_icon {
+    height: 20.29px;
+    width: 26px;
+    padding-right: 0.8vw;
+}
+
+.main__description {
+    margin-top: -3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    width: 11.71vw;
+    height: 64.65vh;
+    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0,0.1);
+}
+
+.first {
+    padding-top: 6vh;
+}
+
+.main_description__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #1C1C1C;
+    text-align: center;
+    width: 7.44vw;
+}
+
+.last {
+    width: 8.38vw;
+}
+
+.second {
+    width: 7.5vw;
+}
+
+.third {
+    width: 7.03vw;
+}
+
+.fourth {
+    width: 8.54vw;
+}
