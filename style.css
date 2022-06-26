@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100vw;
+    height: auto;
+    background-image: url(/roof-academy/assets/backgound.png);
+    background-size:cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 81.77vw;
+}
+
+.header {
+    padding-top: 4.6vh;
+    padding-bottom: 3.81vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    font-family:"Montserrat", sans-serif;
+    color: #1C1C1C;
+    size: 0.729vw;
+    letter-spacing: 5%;
+    line-height: 2.022vh;
+}
+
+.link-contacts {
+    padding-right: 0.99vw;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 7.7vh;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.menu__text {
+    width: 10.67vw;
+    text-align: center;
+    padding-top: 3.4vh;
+    padding-right: 0.6vw;
+}
+
+.menu__pdf {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-top: 7.5vh;
+    width: 13vw;
+}
+
+
+.menu__section__text-section {
+    border-bottom: dotted 2px;
+    border-color: #12C868;
+    text-align: center;
+}
+
+.menu__section__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.625vw;
+    line-height: 1.857vh;
+    margin-top: -0.6vh;
+}
+
+.menu__pdf-text {
+    line-height: 1.509vh;
+    letter-spacing: 4%;
+}
+
+.menu__messengers {
+    width: 8.32vw;
+    text-align: center;
+    position: relative;
+    padding-top: 4.1vh;
+    padding-right: 4vh;
+}
+
+.menu__messengers__text {
+    padding-bottom: 1.53vh;
+}
+
+.menu__messengers::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border: #12C868;
+    background-color: #12C868;
+    border-radius: 100px;
+    position: absolute;
+    left: 0.729vw;
+    top: 4.2vh;
+}
+
+.menu__messengers__icons {
+    margin-top: -0.3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__contacts {
+    padding-top: 4.12vh;
+    width: 12.65vw;
+    padding-left: 0.8vw;
+}
+
+.work-time {
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 1.509vh;
+    font-size: 0.625vw;
+}
+
+.phone-number {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.145vw;
+    line-height: 2.767vh;
+    letter-spacing: 5%;
+    font-weight: 600;
+    padding-top: 1.55vh;
+    padding-bottom: 1.3vh;
+}
+
+.call-me-section {
+    margin: 0 auto;
+    border-bottom: dotted #12C868 2px;
+    width: 5.1vw;
+}
+
+.call-me {
+    font-weight: 600;
+    font-size: 0.625vw;
+    line-height: 1.509vh;
+    letter-spacing: 4%;
+    color: #12C868;
+    text-align: center;
+}
+
+.menu__logo {
+    padding-top: 2.7vh;
+    position: relative;
+}
+
+.form {
+    margin-top: -5vh;
+    position: relative;
+    z-index: 1;
+    width: 19.27vw;
+    height: 25vh;
+    left: -1.041vw;
+}
+
+.logo {
+    position: absolute;
+    z-index: 2;
+    width: 9.79vw;
+    height: 8.05vh;
+    left: 4.4vw;
+}
+
+.main__services {
+    width: 37.91vw;
+    padding-left: 4vw;
+}
+
+.main {
+    padding-top: 16vh;
+    display: flex;
+}
+
+
+.main__title__text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 2.864vw;
+    line-height: 8.771vh;
+    color: #1C1C1C;
+}
+
+.continuation {
+    font-weight: 400;
+    font-size: 1.666vw;
+    line-height: 39.01px;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    padding-top: 1.96vh;
+}
+
+.main__title__img {
+    height: 9.21px;
+    padding-right: 0.83vw;
+    padding-top: 0.7vh;
+    margin-left: -0.24vw;
+}
+
+.main__buttons {
+    display: flex;
+    padding-top: 4.64vh;
+    margin-left: -0.25vw;
+}
+
+.calculate-button {
+    width: 19.53vw;
+    height: 10.32vh;
+    background-color: #12C868;
+    border-radius: 500px;
+    margin-right: 0.93vw;
+}
+
+.signup-button {
+    width: 17.44vw;
+    height: 10.32vh;
+    background-color: #F38120;
+    border-radius: 500px;
+}
+
+.button-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 0.729vw;
+    line-height: 2.27vh;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 2.78vh;
+}
+
+.calculate {
+    width: 11.09vw;
+    padding-left: 2.76vw;
+    position: relative;
+}
+
+.calculate::after {
+    content: "";
+    position: absolute;
+    border: #FFFFFF solid;
+    border-width:  0px 2px 2px 0px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-90deg);
+    right: -3.1vw;
+    top: 4.1vh;
+}
+
+.calculate::before {
+    content: "";
+    position: absolute;
+    border: #FFFFFF solid;
+    border-width:  0px 2px 0px 0px;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    right: -2.8vw;
+    top: 3.3vh;
+}
+
+.signup {
+    width: 9.32vw;
+    padding-left: 2.78vw;
+    position: relative;
+}
+
+.signup::after {
+    content: "";
+    position: absolute;
+    border: #FFFFFF solid;
+    border-width:  0px 2px 2px 0px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-90deg);
+    right: -3.1vw;
+    top: 4.1vh;
+}
+
+.signup::before {
+    content: "";
+    position: absolute;
+    border: #FFFFFF solid;
+    border-width:  0px 2px 0px 0px;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    right: -2.8vw;
+    top: 3.3vh;
+}
+
+.main__question {
+    display: flex;
+    width: 14.375vw;
+    padding-top: 3.92vh;
+    margin-left: -0.3vw;
+}
+
+.main__question__text {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 0.729vw;
+    line-height: 2.270vh;
+    letter-spacing: 2%;
+    color: #1C1C1C;
+    font-weight: 400;
+}
+
+.main__question_icon {
+    height: 2.093vh;
+    width: 1.354vw;
+    padding-right: 0.8vw;
+}
+
+.main__description {
+    margin-top: -3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.6vw;
+    width: 11.71vw;
+    height: 64.65vh;
+    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+    background-color: #ffffff56;
+    border-radius: 20px;
+    position: relative;
+}
+
+.first {
+    padding-top: 6vh;
+}
+
+.main_description__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.72vw;
+    font-weight: 400;
+    line-height: 22px;
+    color: #1C1C1C;
+    text-align: center;
+    width: 7.44vw;
+}
+
+.last {
+    max-width: 8.6vw;
+    font-size: 0.65vw;
+}
+
+.second {
+    max-width: 7.5vw;
+}
+
+.third {
+    margin-top: -0.4vh;
+    max-width: 7.13vw;
+}
+
+.fourth {
+    max-width: 8.9vw;
+    font-size: 0.7vw;
+}
