@@ -5,8 +5,9 @@
 
 .body {
     width: 100vw;
-    height: 111.45vh;
+    height: auto;
     background-image: url(/roof-academy/assets/backgound.png);
+    background-size:cover;
 }
 
 .container {
@@ -29,9 +30,9 @@
     text-decoration: none;
     font-family:"Montserrat", sans-serif;
     color: #1C1C1C;
-    size: 14px;
+    size: 0.729vw;
     letter-spacing: 5%;
-    line-height: 19.6px;
+    line-height: 2.022vh;
 }
 
 .link-contacts {
@@ -64,17 +65,18 @@
 .menu__section__text-section {
     border-bottom: dotted 2px;
     border-color: #12C868;
+    text-align: center;
 }
 
 .menu__section__text {
     font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.625vw;
+    line-height: 1.857vh;
     margin-top: -0.6vh;
 }
 
 .menu__pdf-text {
-    line-height: 14.63px;
+    line-height: 1.509vh;
     letter-spacing: 4%;
 }
 
@@ -98,8 +100,8 @@
     background-color: #12C868;
     border-radius: 100px;
     position: absolute;
-    left: 15px;
-    top: 4.6vh;
+    left: 0.729vw;
+    top: 4.2vh;
 }
 
 .menu__messengers__icons {
@@ -117,15 +119,15 @@
 .work-time {
     text-align: center;
     letter-spacing: 2%;
-    line-height: 14.63px;
-    font-size: 12px;
+    line-height: 1.509vh;
+    font-size: 0.625vw;
 }
 
 .phone-number {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    font-size: 22px;
-    line-height: 26.82px;
+    font-size: 1.145vw;
+    line-height: 2.767vh;
     letter-spacing: 5%;
     font-weight: 600;
     padding-top: 1.55vh;
@@ -140,10 +142,11 @@
 
 .call-me {
     font-weight: 600;
-    font-size: 12px;
-    line-height: 14.63px;
+    font-size: 0.625vw;
+    line-height: 1.509vh;
     letter-spacing: 4%;
     color: #12C868;
+    text-align: center;
 }
 
 .menu__logo {
@@ -157,7 +160,7 @@
     z-index: 1;
     width: 19.27vw;
     height: 25vh;
-    left: -20px;
+    left: -1.041vw;
 }
 
 .logo {
@@ -165,7 +168,7 @@
     z-index: 2;
     width: 9.79vw;
     height: 8.05vh;
-    left: 8.78vh;
+    left: 4.4vw;
 }
 
 .main__services {
@@ -182,14 +185,14 @@
 .main__title__text {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 55px;
-    line-height: 85px;
+    font-size: 2.864vw;
+    line-height: 8.771vh;
     color: #1C1C1C;
 }
 
 .continuation {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 1.666vw;
     line-height: 39.01px;
 }
 
@@ -230,8 +233,8 @@
 .button-text {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 0.729vw;
+    line-height: 2.27vh;
     letter-spacing: 2%;
     color: #FFFFFF;
     text-align: center;
@@ -252,8 +255,8 @@
     display: inline-block;
     padding: 3px;
     transform: rotate(-90deg);
-    right: -3vw;
-    top: 4.2vh;
+    right: -3.1vw;
+    top: 4.1vh;
 }
 
 .calculate::before {
@@ -282,8 +285,8 @@
     display: inline-block;
     padding: 3px;
     transform: rotate(-90deg);
-    right: -3vw;
-    top: 4.2vh;
+    right: -3.1vw;
+    top: 4.1vh;
 }
 
 .signup::before {
@@ -308,16 +311,16 @@
 .main__question__text {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 0.729vw;
+    line-height: 2.270vh;
     letter-spacing: 2%;
     color: #1C1C1C;
     font-weight: 400;
 }
 
 .main__question_icon {
-    height: 20.29px;
-    width: 26px;
+    height: 2.093vh;
+    width: 1.354vw;
     padding-right: 0.8vw;
 }
 
@@ -326,13 +329,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5vh;
+    gap: 2.6vw;
     width: 11.71vw;
     height: 64.65vh;
     clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
-    background-color: #FFFFFF;
+    background-color: #ffffff56;
     border-radius: 20px;
-    box-shadow: rgba(0,0,0,0.1);
+    position: relative;
 }
 
 .first {
@@ -341,7 +344,7 @@
 
 .main_description__text {
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 0.72vw;
     font-weight: 400;
     line-height: 22px;
     color: #1C1C1C;
@@ -350,17 +353,20 @@
 }
 
 .last {
-    width: 8.38vw;
+    max-width: 8.6vw;
+    font-size: 0.65vw;
 }
 
 .second {
-    width: 7.5vw;
+    max-width: 7.5vw;
 }
 
 .third {
-    width: 7.03vw;
+    margin-top: -0.4vh;
+    max-width: 7.13vw;
 }
 
 .fourth {
-    width: 8.54vw;
+    max-width: 8.9vw;
+    font-size: 0.7vw;
 }
