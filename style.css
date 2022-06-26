@@ -9,11 +9,12 @@
 
 .container {
     margin: 0 auto;
-    width: 81vw;
+    width: 81.77vw;
 }
 
 .header {
-    padding-top: 3.98vh;
+    padding-top: 4.43vh;
+    padding-bottom: 3.81vh;
 }
 
 .navigation {
@@ -30,3 +31,120 @@
     letter-spacing: 5%;
     line-height: 19.6px;
 }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 7.7vh;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.menu__text {
+    width: 10.67vw;
+    text-align: center;
+    padding-top: 2.88vh;
+}
+
+.menu__pdf {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-top: 7.5vh;
+    width: 13vw;
+}
+
+
+.menu__section__text-section {
+    border-bottom: dotted 2px;
+    border-color: #12C868;
+}
+
+.menu__section__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.menu__messengers {
+    width: 8.32vw;
+    text-align: center;
+    position: relative;
+    padding-top: 3.81vh;
+}
+
+.menu__messengers__text {
+    padding-bottom: 1.53vh;
+}
+
+.menu__messengers::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border: #12C868;
+    background-color: #12C868;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 4.6vh;
+}
+
+.menu__messengers__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__contacts {
+    padding-top: 3.71vh;
+    width: 12.65vw;
+}
+
+.work-time {
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 14.63px;
+    font-size: 12px;
+}
+
+.phone-number {
+    text-align: center;
+    font-size: 22px;
+    line-height: 26.82px;
+    letter-spacing: 5%;
+    font-weight: 600;
+    padding-top: 0.55vh;
+}
+
+.call-me-section {
+    margin: 0 auto;
+    border-bottom: dotted #12C868 2px;
+    width: 5.1vw;
+}
+
+.call-me {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+    letter-spacing: 4%;
+    color: #12C868;
+}
+
+.menu__logo {
+    padding-top: 2.7vh;
+    position: relative;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    width: 14.27vw;
+    height: 15.27vh;
+}
+
+.logo {
+    position: absolute;
+    z-index: 2;
+    width: 9.79vw;
+    height: 8.05vh;
+    left: 43px;
+}
+
