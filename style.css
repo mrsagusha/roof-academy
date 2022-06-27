@@ -346,6 +346,10 @@
     position: relative;
 }
 
+.mobile-section {
+    display: none;
+} 
+
 .first {
     padding-top: 6vh;
 }
@@ -382,7 +386,7 @@
 @media screen and (max-width: 993px) {
 
     .body {
-        height: auto;
+        height: 100vh;
         background-size: contain;
     }
 
@@ -410,6 +414,7 @@
         background-image: url(/roof-academy/assets/background-mobile.png);
         background-size:cover;
         background-repeat: no-repeat;
+        overflow: hidden;
     }
 
     .logo {
@@ -590,13 +595,56 @@
         padding-top: 14px;
     }
 
+    .main__description {
+        height: 367px;
+        padding: 0;
+        margin: 0 auto;
+        gap: 0;
+        margin-top: 301px;
+    }
+
     .main_description__text  {
         font-size: 10px;
         line-height: 17px;
         font-weight: 400;
+        width: 157px;
     }
 
     .mobile {
         display: block;
     }
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .last {
+        max-width: 157px;
+    }
+
+    .first {
+        padding-top: 26px;
+        width: 157px;
+    }
+
+    .first-text {
+        width: 102px;
+        text-align: start;
+    }
+
+    .mobile-section {
+        display:block;
+        padding-top: 7px;
+        padding-bottom: 15px;
+    }
+
+    .mobile-text {
+        font-weight: 400;
+        font-size: 6px;
+        line-height: 8px;
+        color: #B5B5B5;
+        text-align: start;
+        width: 114px;
+    }
+    
 }
