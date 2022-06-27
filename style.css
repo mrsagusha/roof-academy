@@ -340,7 +340,7 @@
     gap: 2.6vw;
     width: 11.71vw;
     height: 64.65vh;
-    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
     background-color: #ffffff;
     border-radius: 20px;
     position: relative;
@@ -623,6 +623,8 @@
     }
 
     .first {
+        display: flex;
+        position: relative;
         padding-top: 26px;
         width: 157px;
     }
@@ -645,6 +647,37 @@
         color: #B5B5B5;
         text-align: start;
         width: 114px;
+    }
+
+    .main-button {
+        position: absolute;
+        width: 33px;
+        height: 33px;
+        background-color: #F38120;
+        border-radius: 100%;
+        left: 145px;
+        top: 30px;
+    }
+
+    .main-button::after {
+        content: '';
+        background-color: #ffffff;
+        position: absolute;
+        width: 9.13px;
+        height: 3px;
+        top: 15px;
+        left: 12px
+    }
+
+    .main-button::before {
+        content: '';
+        background-color: #ffffff;
+        position: absolute;
+        width: 9.13px;
+        height: 3px;
+        top: 15px;
+        left: 36.37%;
+        transform: rotate(90deg);
     }
     
 }
