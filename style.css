@@ -532,7 +532,7 @@
     }
 
     .main {
-        height: calc(100vh - (7.7vh + 18px));
+        height: calc(100vh - (115px - 18px));
         display: flex;
         flex-direction: column;
         justify-content: space-between;
