@@ -12,6 +12,140 @@
     background-repeat: no-repeat;
 }
 
+.popup-application {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+
+.popup-form .active{
+    
+}
+
+.application {
+    background-color: #f6f8f9;
+    position: absolute;
+    width: 28.645vw;
+    height: 67.079vh;
+    top: 50%;
+    left: 50%;
+    margin: -33.5395vh 0 0 -14.3225vw;
+    border-radius: 35px;
+}
+
+.form__title {
+    padding-top: 70px;
+    text-align: center;
+    margin: 0 auto;
+    width: 356px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 2%;
+    color: #1C1C1C;
+    margin-bottom: 14px;
+}
+
+.form__subtitle {
+    width: 342px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.form__time,
+.form__input__number {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #000000;
+}
+
+.form__input__number {
+    margin-bottom: 12px;
+}
+
+.form__time {
+    margin-bottom: 28px;
+} 
+
+.application__form {
+    background-color: #FFFFFF;
+    border-radius: 500px;
+    text-align: center;
+    width: 356px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.application__form__input {
+    width: 226px;
+    height: 37px;
+    margin-top: 24.25px;
+    color: #A7A7A7;
+    font-size: 18px;
+    line-height: 20px;
+    border: none;
+}
+
+.form__button {
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 356px;
+    height: 85px;
+    text-align: center;
+    border-radius: 500px;
+    background-color: #F38120;
+}
+
+.form__button__text {
+    padding-top: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+}
+
+.form__confidence {
+    display: flex;
+}
+
+.form__confidence__checkbox {
+    display: none;
+}
+
+.form__confidence__label {
+    color: #000;
+    cursor: default;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+
+.form__confidence__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.span {
+    color: #F38120;
+}
+
 .container {
     margin: 0 auto;
     width: 81.77vw;
