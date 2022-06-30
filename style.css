@@ -89,7 +89,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 0.625vw;
     line-height: 1.857vh;
-    margin-top: -0.6vh;
+    margin-top: -5px;
 }
 
 .menu__pdf-text {
@@ -442,6 +442,10 @@
         display: none;
     }
 
+    .menu {
+        height: auto;
+    }
+
     .menu__text {
         display: none;
     }
@@ -528,7 +532,7 @@
     }
 
     .main {
-        height: calc(100vh - (7.7vh + 18px));
+        height: calc(100vh - (115px - 18px));
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -654,6 +658,7 @@
         height: 130px;
         padding: 0;
         margin: 0 auto;
+        gap: 5px;
     }
 
     .main__description__section {
@@ -719,6 +724,11 @@
         border-radius: 100%;
         left: 145px;
         top: 30px;
+        transition: 0.2s;
+    }
+
+    .main-button:hover {
+        transform: scale(1.2);
     }
 
     .main-button::after {
