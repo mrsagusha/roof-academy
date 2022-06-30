@@ -724,5 +724,27 @@
         left: 36.37%;
         transform: rotate(90deg);
     }
+
+    .calculate::after {
+        display: block;
+        right: -45px;
+        top: 22px;
+    }
+
+    .calculate::before {
+        right: -40px;
+        top: 14px;
+    }
+
+    .signup::after {
+        display: block;
+        right: -35px;
+        top: 22px;
+    }
+
+    .signup::before {
+        right: -30px;
+        top: 14px;
+    }
     
 }
