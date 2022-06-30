@@ -654,6 +654,7 @@
         height: 130px;
         padding: 0;
         margin: 0 auto;
+        gap: 5px;
     }
 
     .main__description__section {
