@@ -89,7 +89,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 0.625vw;
     line-height: 1.857vh;
-    margin-top: -0.6vh;
+    margin-top: -5px;
 }
 
 .menu__pdf-text {
@@ -442,6 +442,10 @@
         display: none;
     }
 
+    .menu {
+        height: auto;
+    }
+
     .menu__text {
         display: none;
     }
@@ -720,6 +724,11 @@
         border-radius: 100%;
         left: 145px;
         top: 30px;
+        transition: 0.2s;
+    }
+
+    .main-button:hover {
+        transform: scale(1.2);
     }
 
     .main-button::after {
