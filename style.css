@@ -26,6 +26,12 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    transition: 0.2s;
+}
+
+.home-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .link {
@@ -35,6 +41,11 @@
     size: 0.729vw;
     letter-spacing: 5%;
     line-height: 2.022vh;
+    transition: 0.2s;
+}
+
+.navigation__links:hover .link {
+    color: #F38120;
 }
 
 .link-contacts {
@@ -68,6 +79,10 @@
     border-bottom: dotted 2px;
     border-color: #12C868;
     text-align: center;
+}
+
+.menu__section__text-section:hover {
+    cursor: pointer;
 }
 
 .menu__section__text {
@@ -112,6 +127,15 @@
     justify-content: space-between;
 }
 
+.menu__messengers__icons__img {
+    transition: 0.2s;
+}
+
+.menu__messengers__icons__img:hover {
+    cursor: pointer;
+    transform: rotate(45deg);
+}
+
 .menu__contacts {
     padding-top: 4.12vh;
     width: 12.65vw;
@@ -153,6 +177,10 @@
     letter-spacing: 4%;
     color: #12C868;
     text-align: center;
+}
+
+.call-me:hover {
+    cursor: pointer;
 }
 
 .menu__logo {
@@ -231,6 +259,13 @@
     background-color: #12C868;
     border-radius: 500px;
     margin-right: 0.93vw;
+    transition: 0.2s;
+}
+
+.calculate-button:hover {
+    background-color: #21E27C;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .signup-button {
@@ -238,6 +273,12 @@
     height: 10.32vh;
     background-color: #F38120;
     border-radius: 500px;
+}
+
+.signup-button:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+    background-color: #FD9C49;
 }
 
 .button-text {
@@ -368,7 +409,7 @@
 
 .last {
     max-width: 8.6vw;
-    font-size: 0.65vw;
+    font-size: 0.64vw;
 }
 
 .second {
@@ -520,6 +561,7 @@
 
     .end {
         padding: 0;
+        margin: 0 auto;
     }
 
     .main__title__img {
