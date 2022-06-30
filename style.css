@@ -645,7 +645,7 @@
         padding: 0;
         margin: 0 auto;
         gap: 0;
-        margin-top: 301px;
+        margin-top: 35vh;
     }
 
     .main_description__text  {
@@ -724,5 +724,39 @@
         left: 36.37%;
         transform: rotate(90deg);
     }
+
+    .calculate::after {
+        display: block;
+        right: -45px;
+        top: 22px;
+    }
+
+    .calculate::before {
+        right: -40px;
+        top: 14px;
+    }
+
+    .signup::after {
+        display: block;
+        right: -35px;
+        top: 22px;
+    }
+
+    .signup::before {
+        right: -30px;
+        top: 14px;
+    }
     
+}
+
+@media screen and (min-width: 397px) and (max-width: 992px){
+    .main__description {
+        margin-top: 38vh;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    .main__description {
+        margin-top: 42vh;
+    }
 }
