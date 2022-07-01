@@ -36,29 +36,29 @@
 }
 
 .form__title {
-    padding-top: 70px;
+    padding-top: 9.79vh;
     text-align: center;
     margin: 0 auto;
-    width: 356px;
+    width: 18.541vw;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 1.5625vw;
+    line-height: 3.095vh;
     letter-spacing: 2%;
     color: #1C1C1C;
-    margin-bottom: 14px;
+    margin-bottom: 1.444vh;
 }
 
 .form__subtitle {
-    width: 342px;
+    width: 17.8125vw;
     margin: 0 auto;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 0.833vw;
     line-height: 24px;
     color: #000000;
-    margin-bottom: 24px;
+    margin-bottom: 2.476vh;
 }
 
 .form__time,
@@ -66,53 +66,60 @@
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.625vw;
     line-height: 14.63px;
     color: #000000;
 }
 
 .form__input__number {
-    margin-bottom: 12px;
+    margin-bottom: 1.238vh;
 }
 
 .form__time {
-    margin-bottom: 28px;
+    margin-bottom: 2.889vh;
 } 
 
 .application__form {
     background-color: #FFFFFF;
     border-radius: 500px;
     text-align: center;
-    width: 356px;
-    height: 85px;
+    width: 26.118vw;
+    height: 8.771vh;
     margin: 0 auto;
 }
 
 .application__form__input {
-    width: 226px;
-    height: 37px;
-    margin-top: 24.25px;
+    outline: none;
+    width: 18vw;
+    height: 3.818vh;
+    margin-top: 2.502vh;
     color: #A7A7A7;
-    font-size: 18px;
+    font-size: 0.9375vw;
     line-height: 20px;
     border: none;
 }
 
 .form__button {
     margin: 0 auto;
-    margin-top: 24px;
-    width: 356px;
-    height: 85px;
+    margin-top: 2.476vh;
+    width: 26.118vw;
+    height: 8.771vh;
     text-align: center;
     border-radius: 500px;
     background-color: #F38120;
+    transition: 0.2s;
+}
+
+.form__button:hover {
+    cursor: pointer;
+    background-color: #FD9C49;
 }
 
 .form__button__text {
-    padding-top: 32px;
+    padding-top: 3.302vh;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 0.833vw;
     line-height: 20px;
     letter-spacing: 2%;
     color: #FFFFFF;
@@ -120,6 +127,8 @@
 
 .form__confidence {
     display: flex;
+    align-items: center;
+    margin-top: 1.96vh;
 }
 
 .form__confidence__checkbox {
@@ -127,23 +136,53 @@
 }
 
 .form__confidence__label {
+    position: relative;
     color: #000;
     cursor: default;
     font-weight: normal;
     line-height: 30px;
-    padding: 10px 0;
+    padding: 1px 0 0 0;
     vertical-align: middle;
 }
 
+.form__confidence__label {
+    content: "";
+    color: #FFFFFF;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #F38120;
+    margin-left: 4.01vw;
+    border-radius: 5px;
+}
+
+.form__confidence__label:hover {
+    cursor: pointer;
+}
+ 
+input:checked + label:before {
+    content: "\25CF";
+    position: absolute;
+    height: 0.309vh;
+    width: 0.15625vw;
+    top: -5px;
+    left: 4px;
+  }
 
 .form__confidence__text {
     font-family: "Montserrat", sans-serif;
+    margin-left: 19px;
     font-size: 12px;
     line-height: 21px;
+    width: 319px;
 }
 
 .span {
     color: #F38120;
+}
+
+.span:hover {
+    cursor: pointer;
 }
 
 .container {
